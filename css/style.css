@@ -1,0 +1,158 @@
+body {
+    background-color: #161412;
+    font-size: 20px;
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+}
+
+.box {
+    max-width: 80%;
+    margin-left: 10%;
+    height: 100vh;
+}
+
+#code { 
+    margin:auto;
+    display:none;
+    float: left;
+    margin-left: 10%;
+    margin-top: 12%;
+    width: 35%;
+}
+
+#decode {
+    margin:auto;
+    display:none;
+    float: right;
+    margin-right: 10%;
+    margin-top: 11.5%;
+    width: 35%;
+}
+.codeBtn {
+    height: 10%;
+    width: 30%;
+    margin-top: 18%;
+    margin-left: 35%;
+}
+.decodeBtn {
+    height: 10%;
+    width: 30%;
+    margin-left: 35%;
+}
+p {
+    color: #EBE5E5;
+}
+.decodeHead {
+    margin-bottom: 1.5%;
+}
+
+.codeMessage {
+    background-color: #EBE5E5;
+    border: #EBE5E5;
+    font-size: 18px;
+    width: 98%;
+    color: #161412;
+    padding: 2px;   
+}
+
+.code1 {
+    background-color: #EBE5E5;
+    border: #EBE5E5;
+    font-size: 18px;
+    color: #161412;
+    margin-top: 3%;
+    width: 47%;
+    padding: 2px;
+}
+
+.code2 {
+    background-color: #EBE5E5;
+    border: #EBE5E5;
+    font-size: 18px;
+    color: #161412;
+    margin-top: 3%;
+    width: 47%;
+    margin-left: 4%;
+    padding: 2px;
+}
+
+.decodeMessage {
+    background-color: #EBE5E5;
+    border: #EBE5E5;
+    font-size: 18px;
+    width: 98%;
+    color: #161412;
+    padding: 2px;
+}
+
+.decode1 {
+    background-color: #EBE5E5;
+    border: #EBE5E5;
+    font-size: 18px;
+    color: #161412;
+    margin-top: 3%;
+    width: 47%;
+    padding: 2px;
+}
+
+.decode2 {
+    background-color: #EBE5E5;
+    border: #EBE5E5;
+    font-size: 18px;
+    color: #161412;
+    margin-top: 3%;
+    width: 47%;
+    margin-left: 4%;
+    padding: 2px;
+}
+
+
+@media only screen and (max-width:720px){
+    body {
+        margin: 0; 
+        height: 100%;
+        overflow: hidden;
+    }
+    #code {
+        width:100%;
+        margin: auto;
+    }
+    #decode {
+        width:100%;
+        margin: auto;
+    }
+    
+    .codeBtn {
+        height: 10%;
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 100%;
+        padding: 0;
+        background-color: #161412;
+    }
+    
+    .decodeBtn {
+        height: 10%;
+        width: 40%;
+        margin-left: 30%;
+        margin-bottom: 80%;
+    }
+
+    .btnImg {
+        height: 10%;
+        width: 40%;
+    }
+    
+    .codeHead {
+        margin-top: 20%;
+        width: 100%;
+    }
+
+    .decodeHead {
+        margin-top: 10%;
+        width: 100%;
+    }
+     
+
+}
