@@ -112,7 +112,7 @@ p {
     body {
         margin: 0; 
         height: 100%;
-        overflow: hidden;
+        overflow: auto;
     }
     #code {
         width:100%;
