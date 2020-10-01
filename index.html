@@ -8,34 +8,27 @@
 </head>
 <body>
     <div class = "box">
-        <div class = "code" id = "code">
-            <img src = "res/encode.png" class = "codeHead">
-            <p class = "message">Enter a message to be coded:</p>
-            <input type = "text" class = "codeMessage" id ="codeMessage"><br>
-            <button class = "code1" id = "code1" onclick = "code1()">Code 1</button>
-            <button class = "code2" id = "code2" onclick = "code2()">Code 2</button>
-            <p class = "codedMessage" id = "codedMessage"></p>
+        <div class="code-holder">
+            <div class = "code" id = "code">
+                <p class = "message">Enter a message to be coded:</p>
+                <input type = "text" class = "codeMessage input" id ="codeMessage"><br>
+                <button class = "code-btn" id = "code1" onclick = "code1()">Code 1</button>
+                <button class = "code-btn" id = "code2" onclick = "code2()">Code 2</button>
+                <p class = "output" id = "codedMessage"></p>
+            </div>
+            <div class = "decode" id = "decode">
+                <p class = "message">Enter a message to be decoded:</p>
+                <input type = "text" class = "decodeMessage input" id="decodeMessage"><br>
+                <button class = "code-btn" id = "decode1" onclick = "decode1()">Decode 1</button>
+                <button class = "code-btn" id = "decode2" onclick = "decode2()">Decode 2</button>
+                <p class = "output" id = "decodedMessage"></p>
+            </div>
         </div>
-        
-        <div class = "codeButton">
-            <a class="btnimg">
-                <img src = "res/codebtn.png" class = "codeBtn" id="codeBtn" onclick="showCode()">
-            </a>
+        <div class="buttons">
+            <button class="codeBtn" id="codeBtn" onclick="showCode()">Encode</button>
+            <button class="codeBtn" id="decodeBtn" onclick="showDecode()">Decode</button>
         </div>
-        <div class = "decButton">
-            <a class="btnimg">
-                <img src = "res/decodebtn.png" class = "decodeBtn" id="decodeBtn" onclick="showDecode()">
-            </a>
-        </div>
-        <div class = "decode" id = "decode">
-            <img src = "res/decode.png" class = "decodeHead">
-            <p class = "message">Enter a message to be decoded:</p>
-            <input type = "text" class = "decodeMessage" id="decodeMessage"><br>
-            <button class = "decode1" id = "decode1" onclick = "decode1()">Decode 1</button>
-            <button class = "decode2" id = "decode2" onclick = "decode2()">Decode 2</button>
-            <p class = "decodedMessage" id = "decodedMessage"></p>
-        </div>
-    </div>    
+    </div>
     
 </body>
 <script src="js/main.js"></script>
